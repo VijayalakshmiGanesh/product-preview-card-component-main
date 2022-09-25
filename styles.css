@@ -22,16 +22,17 @@ body {
 .main {
     width: 39%;
     height: 60%;
-    background-color: var(--White);
     border-radius: 5px;
     position: absolute;
-    top: 5em;
-    bottom: 5em;
+    top: 5rem;
+    bottom: 5rem;
     left: 0;
     right: 0;
     margin: auto;
     display: flex;
     min-width: 39%;
+    background-color: var(--White);
+
 }
 
 .product-img {
@@ -131,7 +132,7 @@ p img {
     color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 600px) and (min-width: 375px) {
+@media only screen and (max-width: 600px) and (min-width: 340px) {
 
     * {
         box-sizing: border-box;
@@ -148,7 +149,9 @@ p img {
         display: flex;
         flex-direction: column;
         border-radius: 5px;
-        min-height: 100%;
+        min-height: fit-content;
+        max-height: fit-content;
+        margin-bottom: -14px;
     }
 
     .Content {
@@ -158,7 +161,7 @@ p img {
     .image-product-mobile {
         display: block;
         max-height: 75%;
-        max-width: 22rem;
+        max-width: 100%;
         border-radius: 5px 5px 0 0;
     }
 
@@ -178,11 +181,7 @@ p img {
     }
 
     .attribution {
-
-        /* bottom: 0;
-        left: 0;
-        right: 0; */
-        /* position: fixed; */
+        height: 14px;
     }
 
 }
