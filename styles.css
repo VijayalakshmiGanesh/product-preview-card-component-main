@@ -20,8 +20,8 @@ body {
 }
 
 .main {
-    width: 39%;
-    height: 60%;
+    width: 36.5rem;
+    height: 27rem;
     border-radius: 5px;
     position: absolute;
     top: 5rem;
@@ -182,6 +182,7 @@ p img {
 
     .attribution {
         height: 14px;
+        position: none;
     }
 
 }
