@@ -155,7 +155,7 @@ p img {
 
     .image-product-mobile {
         display: block;
-        height: 100%;
+        max-height: 75%;
         max-width: 22rem;
     }
 
@@ -175,10 +175,11 @@ p img {
     }
 
     .attribution {
-        position: absolute;
+
         bottom: 0;
         left: 0;
         right: 0;
+        position: relative;
     }
 
 }
